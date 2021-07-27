@@ -186,6 +186,8 @@ We currently support the following transformations:
 * `camelcase`: `"BaseDomain"` -> `"baseDomain"`
 * `lispcase`:  `"BaseDomain"` -> `"base-domain"`
 * `pascalcase`:  `"BaseDomain"` -> `"BaseDomain"`
+* `follow-protobuf`: follow protobuf tag's name option
+* `follow-json`: follow json tag's name
 * `keep`:  keeps the original field name
 
 You can also pass a static value for each fields. This is useful if you use Go
